@@ -37,7 +37,7 @@ Takes two optional props to show hints/text, 'hint'will take a string of text sh
 ### import package and wrap carousel items between EasyCarousal tags
 ```javascript
 import EasyCarousal from 'hub-easy-carousal';
-// a slide object contains the image link, title and function/click event for when a user clicks on a card
+// Anything wrapped bellow will be a carousal item eg images and divs and everything else
 
   <EasyCarousal hint='What are you' boldHint='here to do?'>
     <div className="items full-width text-center">
