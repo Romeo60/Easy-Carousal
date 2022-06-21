@@ -19,7 +19,7 @@ npm i bootstrap
 ```
 2. React-Icons
 ```javascript
-npm i bootstrap
+npm i react-icons
 ```
 
 
@@ -34,7 +34,7 @@ Takes two optional props to show hints/text, 'hint'will take a string of text sh
 <EasyCarousal hint='Nornal text' boldHint='Bold text'>{children}</EasyCarousal>
 ```
 
-### import package and wrap carousel items between <EasyCarousal> & </EasyCarousal>
+### import package and wrap carousel items between EasyCarousal tags
 ```javascript
 import EasyCarousal from 'hub-easy-carousal';
 // a slide object contains the image link, title and function/click event for when a user clicks on a card
