@@ -1,17 +1,17 @@
-# hub-easy-carousal
+# carousal-hub
 
-An 'Easy' to use responsive react bootstrap carousal component. Basically turns everything it wraps into Carousal items, it's that 'Easy'
+An easy to use responsive react bootstrap carousal component. Basically turns everything it wraps into Carousal items, it's that 'Easy'
 
 
 
-## installation
+## Installation
 ```javascript
-npm i hub-easy-carousal
+npm i carousal-hub
 ```
 
 ## Dependancies
 
-The component if built with bootstrap and react-icon and should install them along with the package if they are not already installed in your project.
+The component if built with bootstrap and react-icons you should install them along with the package if they are not already installed in your project.
 
 1. Bootstrap
 ```javascript
@@ -34,10 +34,10 @@ Takes two optional props to show hints/text, 'hint'will take a string of text sh
 <EasyCarousal hint='Nornal text' boldHint='Bold text'>{children}</EasyCarousal>
 ```
 
-### import package and wrap carousel items between <EasyCarousal> & </EasyCarousal>
+### import package and wrap carousel items between EasyCarousal tags
 ```javascript
-import EasyCarousal from 'hub-easy-carousal';
-// a slide object contains the image link, title and function/click event for when a user clicks on a card
+import EasyCarousal from 'carousal-hub';
+// Anything wrapped bellow will be a carousal item eg images and divs and everything else
 
   <EasyCarousal hint='What are you' boldHint='here to do?'>
     <div className="items full-width text-center">
